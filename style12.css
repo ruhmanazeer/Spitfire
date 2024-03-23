@@ -1,0 +1,344 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html * {
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    line-height: 1.25;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+body{
+    color: #484A46
+}
+ul li{
+    list-style: none;
+}
+.container{
+        background-color: beige;
+        padding: 0px ;
+        margin: 0px;
+        text-decoration:none;
+        width: 100%;
+        position: fixed;
+        display: flex ;
+        flex-direction:row;
+        justify-content: space-between;
+        align-items: center;
+        color:#909492;
+        font-size: 15px;
+}
+
+.itemsone{
+    display: flex ;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+.itemsone #one{
+    margin-left: 5rem ;
+}
+.itemsone #ones{
+    margin-left: 2rem;
+}
+
+.itemsone #two{
+    margin: 0rem 2rem 0rem 4rem ;
+    font-size: 20px;
+}
+.text{
+    background-image: url("DSC_1817-w-2-2560x1230.jpg");
+    height: 50rem;
+    background-position:cover;
+    background-size:cover;
+    text-align: center; 
+    font-size:x-large;
+    display: flex ;
+    flex-direction:column;
+    justify-content:center;
+    background-repeat: repeat;
+    transition: 5s;
+
+    animation:animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function:ease-in-out;  
+}
+
+.heading h1{
+    margin-top: 8rem ;
+    font-size: 4rem;
+    color:#F5F5F5 ;
+    font-weight:100;
+}
+.box {
+    background-color:beige;
+    color:#74746D;
+    margin:2rem;
+    width: 62rem;
+    height: 7rem;
+    align-self: center;
+    display: flex ;
+    flex-direction:row;
+    justify-content:center;  
+}
+
+.box button{
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 2rem 0rem 2rem 2rem ;
+    background-color:#bd9e61;
+    border: white ;
+    color: white;
+    cursor:pointer;  
+    font-weight: bold;
+}
+.box button:hover{
+    background-color:#1F2221;
+    color:white ;
+}
+.box #item1 {
+    margin: 2.5rem 0rem 2rem 0rem ;
+    font-size: small;
+    font-weight: lighter;
+}
+.box #item2 {
+    margin: 2.5rem 0rem 2rem 18rem ;
+    font-size: small;
+}
+
+.third{
+    background-color:#A2A39A;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.find{    
+    margin: 10rem  ;   
+    text-align: center;
+}
+.find p{
+    font-size: medium ;
+}
+.find button {
+    margin-top: 2rem;
+    padding: 1rem 2rem 1rem 2rem ;
+    background-color:#2A312E;
+    color:beige;
+    border:#2A312E; 
+    cursor:pointer;
+}
+
+.image{
+    margin: 10rem 1rem 10rem 1rem ;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+
+}
+.image p2{
+    color: #998152;
+}
+.Image{
+    padding:1rem ;
+}
+
+.texthead{
+    margin: 2rem;
+    font-size: x-large;
+}
+.texthead p1{
+    font-size: large;
+}
+
+.texthead button{
+    padding: 1rem 2rem 1rem 2rem;
+    background-color:#F4F4F4;
+    color: #2A312E;
+    border: white;
+}
+.texthead button:hover{
+    background-color:  rgb(54, 54, 54) ;
+    color:white ;
+}
+
+.six{
+     margin: 10rem 1rem 10rem 1rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.six1{
+    padding: 1rem;
+}
+
+.six #im2{
+    margin: 1rem ;
+    text-align:left;
+}
+
+.sixtext{
+    margin: 2rem 2rem 2rem 4rem ;
+}
+
+.sixtext p{
+    margin-top: 1rem ;
+}
+
+.sixtext button{
+    margin: 2rem 0rem 2rem 0rem ;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: lightgrey;
+    border:beige;
+    color: rgb(39, 38, 38);
+}
+
+.sixtext button:hover{
+    background-color: #2A312E;
+    color: beige;
+}
+
+.six p2{
+    color: #998152;
+}
+.four{
+    margin: 10rem 0rem 0rem 0rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.four #im{
+    margin: 1rem;
+    box-shadow: 0px 10px 40px 0px rgba(42,49,46,0.2);
+}
+.four #land{
+    margin: 2rem ;
+}
+
+.five{
+    margin: 1rem 0rem 4rem 0rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.five #im{
+    margin: 1rem;
+    box-shadow: 0px 10px 40px 0px rgba(42,49,46,0.2);
+}
+.five #land{
+    margin: 2rem ;
+}
+.fab{
+    height: 40px;
+    width: 40px;
+
+}
+.iconside i{
+    position: fixed;
+    font-size: 35px;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color:#998152;
+    color: beige;
+    text-align: center;
+    border-radius: 50%;
+    transition: 1s;
+}
+.iconside i:hover{
+    background-color: rgb(196, 84, 19);
+    color: #bd9e61;
+}
+
+.footer_upper{
+    padding: 3rem 0rem 7rem 0rem ;
+    background-color: #2A312E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: beige;
+}
+
+.logo{
+     margin-left: 2rem ;
+}
+.img1 {
+    color: #F4F4F4;
+}
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem 1rem 1rem 0.5rem;
+    font-size: 25px;
+}
+.pictures{
+    margin: 6rem 0rem 0rem 7rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pictures #pic{
+    margin: 0rem 1rem 0rem 1rem ;
+}
+
+.links{
+    margin: 1rem 3rem 1rem 10rem ;
+}
+
+.HELP{
+    margin: 1rem 3rem 1rem 4rem ;
+}
+
+.contact ul{
+    margin: 1rem 3rem 1rem 8rem ;
+    list-style: none;
+}
+
+.lower_footer{
+    padding: 3rem 5rem 6rem 5rem ;
+    background-color:#1F2221;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.footer_para p1{
+    color: beige;
+}
+.footer_para p{
+    color: 9E9F9A;
+}
+footer button{
+    background-color:rgb(26, 27, 26);
+    color: beige;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem ;
+    margin: 1rem 1rem 1rem 3rem ;
+    font-size: larger;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border-color: beige;
+}
+
+@keyframes animate{
+    0%{
+        background-image: url("3Z9A8740-2-scaled-e1704192470193-2048x1230.jpg");
+    }20%{
+        background-image: url("picture12.jpg");
+    }40%{
+        background-image: url("file1345.jpeg");
+    }
+   
+}
